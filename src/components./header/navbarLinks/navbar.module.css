@@ -1,0 +1,22 @@
+.navbar {
+    color: var(--White);
+    background-color: var(--Black);
+}
+
+.navbarParednt {
+    min-height: 48px;
+    padding-block: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarLink {
+    font-family: Bold;
+    color: var(--White);
+    transition: color .2s;
+}
+
+.navbarLink:hover {
+    color: var(--TorchRed)
+}

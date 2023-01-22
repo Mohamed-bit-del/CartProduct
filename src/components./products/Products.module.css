@@ -1,0 +1,23 @@
+.productTitles {
+    margin-block-end: 20px;
+}
+
+.productTitlesStyle {
+    text-transform: capitalize;
+    line-height: 1.5
+}
+
+.productHeading {
+    color: var(--DaisyBush);
+}
+
+.productdesc {
+    color: var(--ShipGrey);
+}
+
+.productCards {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 40px;
+    overflow-y: auto;
+}

@@ -1,0 +1,137 @@
+footer {
+    padding-block-start: 50px;
+    background-color: var(--ElPaso);
+}
+
+.footerTop {
+    padding-block-end: 20px;
+    border-bottom: 1px solid var(--Mischka);
+    display: flex;
+}
+
+.footerDesc {
+    max-width: 500px;
+    padding-inline-end: 30px;
+    border-inline-end: 1px solid var(--Mischka);
+}
+
+.footerDescLogo {
+    margin-block-end: 30px;
+}
+
+.footerDescText {
+    min-height: 250px;
+}
+
+.footerDescText p {
+    color: var(--White);
+}
+
+.footerDescText p:not(:last-child) {
+    margin-block: 10px;
+}
+
+.footerdetiles {
+    padding-inline-start: 50px;
+}
+
+.footerdetilesTitle {
+    font-size: 18px;
+    color: var(--White);
+}
+
+.footerSendMail {
+    margin-block: 15px 30px ;
+    position: relative;
+}
+
+.footerInput {
+    width: 100%;
+    /* max-width: 575px; */
+    min-height: 48px;
+    border: 0;
+    outline: none;
+    border-radius: 24px;
+    padding-inline: 20px;
+}
+
+.footerSendMailAction {
+    position: absolute;
+    inset-inline-end: 5px;
+    inset-block-start: 50%;
+    transform: translate(0, -50%);
+    font-size: 10px;
+    min-width: 120px;
+    min-height: 38px;
+    background-color: var(--Yellow);
+}
+
+.footerdetileslinks {
+    display: flex;
+}
+
+.collectionLink,
+.collectionSocile {
+    display: flex;
+    flex-direction: column;
+}
+
+.collectionLink {
+    line-height: 1.5;
+}
+
+.collectionItem {
+    font-weight: bold;
+    text-transform: capitalize;
+    color: var(--White);
+    padding-block: 5px;
+    border-inline-end: 1px solid var(--Mischka);
+    padding-inline-end: 150px;
+}
+
+.collectionSocile {
+    padding-inline-start: 50px;
+}
+
+.collectionSocileLink {
+    margin-block-end: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.collectionSocileLink span {
+    color: var(--White);
+    padding-inline-start: 10px;
+}
+
+.footerBottom {
+    display: flex;  
+    justify-content: space-between;
+    padding-block: 20px;
+}
+
+.footerCopyrith {
+    color: var(--White)
+}
+
+.footerPsys {
+    display: flex;
+}
+
+.footerPsys li:nth-child(2) {
+    margin-inline: 10px;
+}
+
+.footerPowered {
+    display: flex;
+    align-items: center;
+}
+
+.footerPowered span {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: var(--White);
+    padding-inline-end: 5px;
+}

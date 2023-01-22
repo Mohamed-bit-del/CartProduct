@@ -1,0 +1,109 @@
+/* Commen Style Compnenet */
+.titleProduct {
+    font-style: 18px;
+    text-transform: capitalize;
+    padding-block: 15px;
+}
+
+.btnAction {
+    width: 37px;
+    height: 37px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: var(--Yellow);
+    cursor: pointer;
+}
+
+/* Style Component */
+.detailsProductPArent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.sliderProduct,
+.detailItem {
+    min-width: 50%;
+}
+
+.textPrice {
+    font-size: 18px;
+    font-weight: bold;
+    padding-block: 10px;
+    width: 90%;
+    line-height: 1.3;
+}
+
+.textPriceType {
+    text-transform: capitalize;
+    color: var(--Mischka);
+    padding-block-end: 10px;
+}
+
+.productSize,
+.productColor {
+    padding-block-end: 30px;
+}
+
+.coloctionSize,
+.coloctionColor {
+    display: flex;
+}
+
+.coloctionSizeItem + .coloctionSizeItem,
+.coloctionColorItem + .coloctionColorItem {
+    margin-inline: 10px;
+}
+
+.coloctionSizeItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    font-size: 10px;
+    border-radius: 30px;
+    color: var(--DaisyBush);
+    border: 1px solid var(--Gainsboro);
+}
+
+.coloctionSizeItem:nth-child(3) {
+    background-color: var(--Whisper);
+}
+
+.coloctionSizeItem,
+.coloctionColorItem {
+    cursor: pointer;
+}
+
+.coloctionColorItem:first-child {
+    border: 1px solid var(--DaisyBush);
+    border-radius: 50%;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 250px;
+    min-height: 48px;
+    border-radius: 24px;
+    padding: 5px;
+    background-color: var(--Gainsboro);
+}
+
+.ActionProduct {
+    margin-block: 20px;
+}
+
+.btnAdd {
+    margin-inline-end: 27px;
+    color: var(--White);
+    background-color: var(--DaisyBush);
+}
+
+.btnPokup {
+    color: var(--Black);
+    background-color: var(--Yellow);
+}

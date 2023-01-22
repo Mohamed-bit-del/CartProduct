@@ -1,0 +1,106 @@
+.card {
+    max-width: 270px;
+    min-height: 440px;
+    border-radius: 5px;
+    border: 1px solid var(--Whisper);
+    padding: 8px 7px;
+}
+
+.cardImgs {
+    width: 100%;
+    min-width: 254px;
+    max-width: 254px;
+    min-height: 254px;
+    position: relative;
+}
+
+.cardImg img {
+    border-radius: 5px;
+}
+
+.cardImgsIcon {
+    position: absolute;
+    inset-block-start: 10px;
+    inset-inline-start: 10px;
+    width: 40px;
+    height: 40px;
+    background: var(--White);
+    border-radius: 7px;
+    box-shadow: 0 0 0 1px var(--MidnightExpress);
+}
+
+.cardImgsIcon img {
+    position: absolute;
+    inset-block-start: 50%;
+    inset-inline-start: 50%;
+    transform: translate(-50%, -50%);
+    width: 27px;
+    height: 30px;
+}
+
+.cardDetails {
+    margin-block: 5px;
+    padding-inline-start: 10px;
+}
+
+.cardDesc {
+    padding-block-end: 10px;
+    font-size: 14px;
+    font-family: Bold;
+}
+
+.cardAmount {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cardAmountPrices {
+    align-items: start;
+    flex-direction: column;
+}
+
+.cardAmountPricesNum {
+    font-size: 20px;
+    font-family: Medium;
+    margin-block-end: 10px;
+}
+
+.cardAmountPricesNum sub {
+    font-size: 14px;
+}
+
+.cardAmountOffers {
+    display: flex;
+    flex-direction: row;
+}
+
+.cardAmountPricesOld {
+    margin-inline: 0;
+    font-family: Medium;
+    font-size: 14px;
+    margin-inline-end: 10px;
+}
+
+.cardAmountPricesOffer {
+    font-size: 10px;
+}
+
+.cardFrom {
+    display: flex;
+    justify-content: space-around
+}
+
+.cardFromCentry,
+.cardFromCity,
+.cardFromTime {
+    font-size: 10px;
+}
+
+.cardFromCentry span,
+.cardFromCity span,
+.cardFromTime span {
+    font-size: 12px;
+    font-family: Bold;
+}

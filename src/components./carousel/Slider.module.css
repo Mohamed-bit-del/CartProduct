@@ -1,0 +1,32 @@
+.carousel {
+    /* background: #000 */
+}
+
+.carousel > div > img {
+    width: 100%;
+    max-width: 570px;
+    border-radius: 10px;
+    margin-inline: auto;
+}
+
+.innerCrousel {
+    display: flex !important;
+    overflow: hidden;
+    width: 84% !important;
+    margin-inline-start: 25px;
+    margin-block-start: 10px;
+}
+
+.innerCrousel > div {
+    margin-inline: 5px;
+}
+
+.innerCrousel img {
+    cursor: grab;
+    width: 100%;
+    min-width: 120px;
+    height: 100%;
+    min-height: 120px;
+    border-radius: 10px;
+    pointer-events: none;
+}

@@ -1,0 +1,25 @@
+.breadcrumb {
+    border-block-end: 1px solid var(--Mischka);
+}
+
+.breadcrumbParent {
+    display: flex;
+    min-height: 28px;
+    padding-block: 20px;
+}
+
+.breadcrumbItem {
+    font-family: Bold;
+    text-transform: capitalize;
+    /* font-weight: bold; */
+    color: var(--Black);
+}
+
+.breadcrumbItem:not(:last-child) {
+    text-decoration: underline;
+}
+
+.breadcrumbItem + .breadcrumbItem:before {
+	content: "/\00a0";
+    padding-inline: 15px;
+}
